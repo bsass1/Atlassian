@@ -1,0 +1,199 @@
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+ custom styles
+   ========================================================================== */
+
+
+.banner{
+    width:100%;
+    top:0px;
+    height:50px;
+    background:#005183;
+    border:1px solid #CCC;
+    margin:0px auto;
+}
+
+.logo_image{
+    margin-left: 10%;
+}
+
+.container {
+    margin-left: 7em;
+
+}
+
+.title_page_container{
+    display: flex;
+    margin-top: 25px;
+    width: 100%;
+    height: auto;
+    align-content: center;
+}
+.image_title_page{
+    display: block;
+    margin: auto
+}
+nav {
+    width: 70%;
+    margin-top: 30px;
+}
+
+nav > ul{
+    display: table-row;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: block;
+    float: left;
+    font-family: 'Oswald', sans-serif;
+    font-size: .7em;
+    font-weight: bold;
+    color:gray;
+    height: 25px;
+    padding: 10px 5px 5px 10px;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    background-color: #F5F5F5;
+    border-bottom: 1px solid #ccc;
+    width: 100px;
+
+}
+
+nav li:first-child {
+    border-top-left-radius: 5px;
+}
+
+nav li:last-child {
+    border-top-right-radius: 5px;
+    border-right: 1px solid #ccc;
+}
+
+.tab_selected{
+    border-bottom: none;
+    background-color: white;
+}
+
+
+.hidden {
+    display: none !important;
+}
+
+.left_tab{
+    display:inline-block;
+    margin-left:10px;
+    width: 20%;
+    float: left;
+    color:#005183;
+}
+.left_tab ul{
+    display: table-row;
+    list-style-type: none;
+}
+.left_tab_selected{
+    background-color: #F5F5F5;
+}
+
+.article_desc{
+    display:inline-block;
+    color:#005183;
+    width: 50%;
+    height: auto;
+    margin-left: 50px;
+}
+.speaker{
+    display: block;
+    font-size: smaller;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.author{
+    font-size: small;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.tab_title{
+        display: block;
+        font-size: small;
+        font-weight: bold;
+        padding-top: 5px;
+}
+
+.title_author li{
+    border-bottom: #9E9E9E;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+}
+
+.title_author li:first-child{
+    border-top: #9E9E9E;
+    border-top-style: solid;
+    border-top-width:thin;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+
+
