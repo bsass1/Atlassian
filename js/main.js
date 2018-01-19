@@ -4,7 +4,7 @@ var Atlassin = (function($){
     var videoData = [];
 
     function getSessionData() {
-        $.when($.get('./json/sessions.json').done((data)=> {
+        $.when($.getJSON('./json/sessions.json').done((data)=> {
             videoData = buildVideoData(data);
             buildNavMenuTabs(videoData);
         }));
